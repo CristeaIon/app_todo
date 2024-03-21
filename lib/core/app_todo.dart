@@ -1,3 +1,4 @@
+import 'package:app_todo/core/app_todo_theme.dart';
 import 'package:flutter/material.dart';
 
 class AppTodo extends StatelessWidget {
@@ -7,10 +8,7 @@ class AppTodo extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'AppTodo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
+      theme: AppTodoTheme.black(),
     );
   }
 }
