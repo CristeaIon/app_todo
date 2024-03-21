@@ -12,42 +12,42 @@ import 'intl/messages_all.dart';
 // ignore_for_file: join_return_with_assignment, prefer_final_in_for_each
 // ignore_for_file: avoid_redundant_argument_values, avoid_escaping_inner_quotes
 
-class Localization {
-  Localization();
+class L {
+  L();
 
-  static Localization? _current;
+  static L? _current;
 
-  static Localization get current {
+  static L get current {
     assert(_current != null,
-        'No instance of Localization was loaded. Try to initialize the Localization delegate before accessing Localization.current.');
+        'No instance of L was loaded. Try to initialize the L delegate before accessing L.current.');
     return _current!;
   }
 
   static const AppLocalizationDelegate delegate = AppLocalizationDelegate();
 
-  static Future<Localization> load(Locale locale) {
+  static Future<L> load(Locale locale) {
     final name = (locale.countryCode?.isEmpty ?? false)
         ? locale.languageCode
         : locale.toString();
     final localeName = Intl.canonicalizedLocale(name);
     return initializeMessages(localeName).then((_) {
       Intl.defaultLocale = localeName;
-      final instance = Localization();
-      Localization._current = instance;
+      final instance = L();
+      L._current = instance;
 
       return instance;
     });
   }
 
-  static Localization of(BuildContext context) {
-    final instance = Localization.maybeOf(context);
+  static L of(BuildContext context) {
+    final instance = L.maybeOf(context);
     assert(instance != null,
-        'No instance of Localization present in the widget tree. Did you add Localization.delegate in localizationsDelegates?');
+        'No instance of L present in the widget tree. Did you add L.delegate in localizationsDelegates?');
     return instance!;
   }
 
-  static Localization? maybeOf(BuildContext context) {
-    return Localizations.of<Localization>(context, Localization);
+  static L? maybeOf(BuildContext context) {
+    return Localizations.of<L>(context, L);
   }
 
   /// `UpTodo`
@@ -61,7 +61,7 @@ class Localization {
   }
 }
 
-class AppLocalizationDelegate extends LocalizationsDelegate<Localization> {
+class AppLocalizationDelegate extends LocalizationsDelegate<L> {
   const AppLocalizationDelegate();
 
   List<Locale> get supportedLocales {
@@ -73,7 +73,7 @@ class AppLocalizationDelegate extends LocalizationsDelegate<Localization> {
   @override
   bool isSupported(Locale locale) => _isSupported(locale);
   @override
-  Future<Localization> load(Locale locale) => Localization.load(locale);
+  Future<L> load(Locale locale) => L.load(locale);
   @override
   bool shouldReload(AppLocalizationDelegate old) => false;
 
