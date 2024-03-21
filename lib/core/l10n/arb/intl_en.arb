@@ -1,0 +1,10 @@
+{
+    "@@locale": "en",
+    "@@author": "icristea",
+    "title": "UpTodo",
+    "@title": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    }
+}
