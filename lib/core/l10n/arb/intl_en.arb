@@ -6,5 +6,65 @@
         "description": "",
         "type": "text",
         "placeholders": {}
+    },
+    "skip": "Skip",
+    "@skip": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "back": "Back",
+    "@back": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "next": "Next",
+    "@next": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "getStarted": "Get Started",
+    "@getStarted": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "manageTasks": "Manage your tasks",
+    "@manageTasks": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "manageTasksMessage": "You can easily manage all of your daily tasks in DoMe for free",
+    "@manageTasksMessage": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "createRoutine": "Create daily routine",
+    "@createRoutine": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "createRoutineMessage": "In Uptodo you can create your personalized routine to stay productive",
+    "@createRoutineMessage": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "organizeTasks": "Organize your tasks",
+    "@organizeTasks": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "organizeTasksMessage": "You can organize your daily tasks by adding your tasks into separate categories",
+    "@organizeTasksMessage": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
     }
 }

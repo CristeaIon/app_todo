@@ -22,6 +22,22 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "back": MessageLookupByLibrary.simpleMessage("Back"),
+        "createRoutine":
+            MessageLookupByLibrary.simpleMessage("Create daily routine"),
+        "createRoutineMessage": MessageLookupByLibrary.simpleMessage(
+            "In Uptodo you can create your personalized routine to stay productive"),
+        "getStarted": MessageLookupByLibrary.simpleMessage("Get Started"),
+        "manageTasks":
+            MessageLookupByLibrary.simpleMessage("Manage your tasks"),
+        "manageTasksMessage": MessageLookupByLibrary.simpleMessage(
+            "You can easily manage all of your daily tasks in DoMe for free"),
+        "next": MessageLookupByLibrary.simpleMessage("Next"),
+        "organizeTasks":
+            MessageLookupByLibrary.simpleMessage("Organize your tasks"),
+        "organizeTasksMessage": MessageLookupByLibrary.simpleMessage(
+            "You can organize your daily tasks by adding your tasks into separate categories"),
+        "skip": MessageLookupByLibrary.simpleMessage("Skip"),
         "title": MessageLookupByLibrary.simpleMessage("UpTodo")
       };
 }

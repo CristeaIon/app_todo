@@ -19,7 +19,7 @@ class AppTodo extends StatelessWidget {
         GlobalWidgetsLocalizations.delegate,
       ],
       supportedLocales: L.delegate.supportedLocales,
-      theme: AppTodoTheme.black(),
+      theme: AppTodoTheme.black(context),
       home: const UpTodoSplash(),
     );
   }

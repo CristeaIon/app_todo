@@ -59,6 +59,106 @@ class L {
       args: [],
     );
   }
+
+  /// `Skip`
+  String get skip {
+    return Intl.message(
+      'Skip',
+      name: 'skip',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Back`
+  String get back {
+    return Intl.message(
+      'Back',
+      name: 'back',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Next`
+  String get next {
+    return Intl.message(
+      'Next',
+      name: 'next',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Get Started`
+  String get getStarted {
+    return Intl.message(
+      'Get Started',
+      name: 'getStarted',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Manage your tasks`
+  String get manageTasks {
+    return Intl.message(
+      'Manage your tasks',
+      name: 'manageTasks',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `You can easily manage all of your daily tasks in DoMe for free`
+  String get manageTasksMessage {
+    return Intl.message(
+      'You can easily manage all of your daily tasks in DoMe for free',
+      name: 'manageTasksMessage',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create daily routine`
+  String get createRoutine {
+    return Intl.message(
+      'Create daily routine',
+      name: 'createRoutine',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `In Uptodo you can create your personalized routine to stay productive`
+  String get createRoutineMessage {
+    return Intl.message(
+      'In Uptodo you can create your personalized routine to stay productive',
+      name: 'createRoutineMessage',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Organize your tasks`
+  String get organizeTasks {
+    return Intl.message(
+      'Organize your tasks',
+      name: 'organizeTasks',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `You can organize your daily tasks by adding your tasks into separate categories`
+  String get organizeTasksMessage {
+    return Intl.message(
+      'You can organize your daily tasks by adding your tasks into separate categories',
+      name: 'organizeTasksMessage',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<L> {
