@@ -1,8 +1,10 @@
 import 'package:app_todo/core/extensions/context.dart';
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 
 import '../../core/l10n/generated/l10n.dart';
 
+@RoutePage()
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
 

@@ -1,8 +1,11 @@
+import 'package:app_todo/core/navigation/app_router.dart';
 import 'package:app_todo/features/onboarding/widgets/page.dart';
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 
 import '../../core/l10n/generated/l10n.dart';
 
+@RoutePage()
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({super.key});
 
@@ -49,6 +52,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             image: 'assets/images/onboarding_3.svg',
             onBack: () {
               controller.jumpToPage(controller.page!.ceil() - 1);
+            },
+            onNext: () {
+              AutoRouter.of(context).push(const WelcomeRoute());
             },
           ),
         ],
