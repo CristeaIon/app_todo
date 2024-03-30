@@ -7,6 +7,32 @@ class AppTodoTheme {
       scaffoldBackgroundColor: Colors.black,
       appBarTheme: const AppBarTheme(backgroundColor: Colors.black),
       typography: Typography.material2021(),
+      iconButtonTheme: const IconButtonThemeData(
+        style: ButtonStyle(
+          iconColor: MaterialStatePropertyAll(Colors.white),
+        ),
+      ),
+      elevatedButtonTheme: ElevatedButtonThemeData(
+        style: ButtonStyle(
+          backgroundColor: MaterialStatePropertyAll(
+            Theme.of(context).colorScheme.primary,
+          ),
+          shape: MaterialStatePropertyAll(
+            RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(5),
+            ),
+          ),
+        ),
+      ),
+      outlinedButtonTheme: OutlinedButtonThemeData(
+        style: ButtonStyle(
+          shape: MaterialStatePropertyAll(
+            RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(5),
+            ),
+          ),
+        ),
+      ),
       //TODO(icristea): Find a way to inherit text theme
       textTheme: TextTheme(
         displaySmall: Theme.of(context).textTheme.displaySmall?.copyWith(color: Colors.white),

@@ -66,5 +66,29 @@
         "description": "",
         "type": "text",
         "placeholders": {}
+    },
+    "welcome": "Welcome to UpTodo",
+    "@welcome": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "welcomeMessage": "Please login to your account or create new account to continue",
+    "@welcomeMessage": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "login": "Login",
+    "@login": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "createAccount": "Create Account",
+    "@createAccount": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
     }
 }
