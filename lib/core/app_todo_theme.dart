@@ -33,11 +33,16 @@ class AppTodoTheme {
           ),
         ),
       ),
+      bottomNavigationBarTheme: BottomNavigationBarThemeData(
+        backgroundColor: Colors.white.withOpacity(.2),
+        unselectedItemColor: Colors.white,
+      ),
       //TODO(icristea): Find a way to inherit text theme
       textTheme: TextTheme(
         displaySmall: Theme.of(context).textTheme.displaySmall?.copyWith(color: Colors.white),
         bodyMedium: Theme.of(context).textTheme.bodyMedium?.copyWith(color: Colors.white),
-        // bodyLarge: Theme.of(context).textTheme.bodyLarge?.copyWith(color: Colors.white),
+        bodyLarge: Theme.of(context).textTheme.bodyLarge?.copyWith(color: Colors.white),
+        titleLarge: Theme.of(context).textTheme.titleLarge?.copyWith(color: Colors.white),
       ),
       useMaterial3: true,
     );

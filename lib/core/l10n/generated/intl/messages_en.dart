@@ -30,6 +30,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Already have an account?"),
         "apple": m0,
         "back": MessageLookupByLibrary.simpleMessage("Back"),
+        "calendar": MessageLookupByLibrary.simpleMessage("Calendar"),
         "confirmPassword":
             MessageLookupByLibrary.simpleMessage("Confirm Password"),
         "createAccount": MessageLookupByLibrary.simpleMessage("Create Account"),
@@ -39,8 +40,10 @@ class MessageLookup extends MessageLookupByLibrary {
             "In Uptodo you can create your personalized routine to stay productive"),
         "dontHaveAccount":
             MessageLookupByLibrary.simpleMessage("Don`t have an account?"),
+        "focus": MessageLookupByLibrary.simpleMessage("Focus"),
         "getStarted": MessageLookupByLibrary.simpleMessage("Get Started"),
         "google": m1,
+        "index": MessageLookupByLibrary.simpleMessage("Index"),
         "login": MessageLookupByLibrary.simpleMessage("Login"),
         "manageTasks":
             MessageLookupByLibrary.simpleMessage("Manage your tasks"),
@@ -53,6 +56,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "organizeTasksMessage": MessageLookupByLibrary.simpleMessage(
             "You can organize your daily tasks by adding your tasks into separate categories"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
+        "profile": MessageLookupByLibrary.simpleMessage("Profile"),
         "register": MessageLookupByLibrary.simpleMessage("Register"),
         "skip": MessageLookupByLibrary.simpleMessage("Skip"),
         "title": MessageLookupByLibrary.simpleMessage("UpTodo"),

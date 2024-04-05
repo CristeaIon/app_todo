@@ -107,7 +107,9 @@ class LoginScreen extends StatelessWidget {
             SliverToBoxAdapter(child: SizedBox(height: context.height * .01)),
             SliverToBoxAdapter(
               child: OutlinedButton(
-                onPressed: () {},
+                onPressed: () {
+                  AutoRouter.of(context).push(const HomeRoute());
+                },
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [

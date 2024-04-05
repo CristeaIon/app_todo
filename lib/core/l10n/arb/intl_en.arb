@@ -148,5 +148,29 @@
         "description": "",
         "type": "text",
         "placeholders": {}
+    },
+    "index": "Index",
+    "@index": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "calendar": "Calendar",
+    "@calendar": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "focus": "Focus",
+    "@focus": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "profile": "Profile",
+    "@profile": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
     }
 }

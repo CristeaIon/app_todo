@@ -289,6 +289,46 @@ class L {
       args: [],
     );
   }
+
+  /// `Index`
+  String get index {
+    return Intl.message(
+      'Index',
+      name: 'index',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Calendar`
+  String get calendar {
+    return Intl.message(
+      'Calendar',
+      name: 'calendar',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Focus`
+  String get focus {
+    return Intl.message(
+      'Focus',
+      name: 'focus',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Profile`
+  String get profile {
+    return Intl.message(
+      'Profile',
+      name: 'profile',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<L> {
