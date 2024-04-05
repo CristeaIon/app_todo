@@ -59,10 +59,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "profile": MessageLookupByLibrary.simpleMessage("Profile"),
         "register": MessageLookupByLibrary.simpleMessage("Register"),
         "skip": MessageLookupByLibrary.simpleMessage("Skip"),
+        "tapToAdd":
+            MessageLookupByLibrary.simpleMessage("Tap + to add your tasks"),
         "title": MessageLookupByLibrary.simpleMessage("UpTodo"),
         "username": MessageLookupByLibrary.simpleMessage("Username"),
         "welcome": MessageLookupByLibrary.simpleMessage("Welcome to UpTodo"),
         "welcomeMessage": MessageLookupByLibrary.simpleMessage(
-            "Please login to your account or create new account to continue")
+            "Please login to your account or create new account to continue"),
+        "whatTodo": MessageLookupByLibrary.simpleMessage(
+            "What do you want to do today?")
       };
 }

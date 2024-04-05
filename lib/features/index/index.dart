@@ -39,11 +39,11 @@ class IndexScreen extends StatelessWidget {
           )),
           SvgPicture.asset('assets/images/checklist.svg'),
           Text(
-            'What do you want to do today?',
+            L.of(context).whatTodo,
             style: Theme.of(context).textTheme.bodyLarge,
           ),
           Text(
-            'Tap + to add your tasks',
+            L.of(context).tapToAdd,
             style: Theme.of(context).textTheme.bodyMedium,
           ),
         ],

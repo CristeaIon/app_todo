@@ -172,5 +172,17 @@
         "description": "",
         "type": "text",
         "placeholders": {}
+    },
+    "whatTodo": "What do you want to do today?",
+    "@whatTodo": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "tapToAdd": "Tap + to add your tasks",
+    "@tapToAdd": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
     }
 }

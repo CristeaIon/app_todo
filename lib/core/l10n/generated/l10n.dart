@@ -329,6 +329,26 @@ class L {
       args: [],
     );
   }
+
+  /// `What do you want to do today?`
+  String get whatTodo {
+    return Intl.message(
+      'What do you want to do today?',
+      name: 'whatTodo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Tap + to add your tasks`
+  String get tapToAdd {
+    return Intl.message(
+      'Tap + to add your tasks',
+      name: 'tapToAdd',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<L> {
