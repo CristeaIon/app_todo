@@ -13,8 +13,16 @@ class HomeScreen extends StatelessWidget {
       routes: const [IndexRoute(), CalendarRoute(), FocusRoute(), ProfileRoute()],
       builder: (context, child) {
         final tabsRouter = AutoTabsRouter.of(context);
-        return Scaffold(           
+        return Scaffold(
           body: child,
+          floatingActionButton: FloatingActionButton(
+            onPressed: () {},
+            child: const Icon(
+              Icons.add,
+              size: 35,
+            ),
+          ),
+          floatingActionButtonLocation: FloatingActionButtonLocation.miniCenterDocked,
           bottomNavigationBar: BottomNavigationBar(
             type: BottomNavigationBarType.fixed,
             currentIndex: tabsRouter.activeIndex,
