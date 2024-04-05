@@ -1,4 +1,5 @@
 import 'package:app_todo/core/extensions/context.dart';
+import 'package:app_todo/core/navigation/app_router.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 
@@ -34,7 +35,9 @@ class WelcomeScreen extends StatelessWidget {
                       Size(context.width, 48),
                     ),
                   ),
-              onPressed: () {},
+              onPressed: () {
+                AutoRouter.of(context).push(const LoginRoute());
+              },
               child: Text(
                 L.of(context).login.toUpperCase(),
                 style: Theme.of(context).textTheme.bodyMedium,
@@ -47,7 +50,9 @@ class WelcomeScreen extends StatelessWidget {
                       Size(context.width, 48),
                     ),
                   ),
-              onPressed: () {},
+              onPressed: () {
+                AutoRouter.of(context).push(const CreateAccountRoute());
+              },
               child: Text(
                 L.of(context).createAccount,
                 style: Theme.of(context).textTheme.bodyMedium,

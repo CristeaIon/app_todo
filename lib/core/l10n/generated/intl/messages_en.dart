@@ -20,27 +20,43 @@ typedef String MessageIfAbsent(String messageStr, List<dynamic> args);
 class MessageLookup extends MessageLookupByLibrary {
   String get localeName => 'en';
 
+  static String m0(method) => "${method} with Apple";
+
+  static String m1(method) => "${method} with Google";
+
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "alreadyHaveAccount":
+            MessageLookupByLibrary.simpleMessage("Already have an account?"),
+        "apple": m0,
         "back": MessageLookupByLibrary.simpleMessage("Back"),
+        "confirmPassword":
+            MessageLookupByLibrary.simpleMessage("Confirm Password"),
         "createAccount": MessageLookupByLibrary.simpleMessage("Create Account"),
         "createRoutine":
             MessageLookupByLibrary.simpleMessage("Create daily routine"),
         "createRoutineMessage": MessageLookupByLibrary.simpleMessage(
             "In Uptodo you can create your personalized routine to stay productive"),
+        "dontHaveAccount":
+            MessageLookupByLibrary.simpleMessage("Don`t have an account?"),
         "getStarted": MessageLookupByLibrary.simpleMessage("Get Started"),
+        "google": m1,
         "login": MessageLookupByLibrary.simpleMessage("Login"),
         "manageTasks":
             MessageLookupByLibrary.simpleMessage("Manage your tasks"),
         "manageTasksMessage": MessageLookupByLibrary.simpleMessage(
             "You can easily manage all of your daily tasks in DoMe for free"),
         "next": MessageLookupByLibrary.simpleMessage("Next"),
+        "or": MessageLookupByLibrary.simpleMessage("or"),
         "organizeTasks":
             MessageLookupByLibrary.simpleMessage("Organize your tasks"),
         "organizeTasksMessage": MessageLookupByLibrary.simpleMessage(
             "You can organize your daily tasks by adding your tasks into separate categories"),
+        "password": MessageLookupByLibrary.simpleMessage("Password"),
+        "register": MessageLookupByLibrary.simpleMessage("Register"),
         "skip": MessageLookupByLibrary.simpleMessage("Skip"),
         "title": MessageLookupByLibrary.simpleMessage("UpTodo"),
+        "username": MessageLookupByLibrary.simpleMessage("Username"),
         "welcome": MessageLookupByLibrary.simpleMessage("Welcome to UpTodo"),
         "welcomeMessage": MessageLookupByLibrary.simpleMessage(
             "Please login to your account or create new account to continue")

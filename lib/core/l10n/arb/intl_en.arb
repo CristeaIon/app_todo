@@ -90,5 +90,63 @@
         "description": "",
         "type": "text",
         "placeholders": {}
+    },
+    "register": "Register",
+    "@register": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "username": "Username",
+    "@username": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "password": "Password",
+    "@password": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "confirmPassword": "Confirm Password",
+    "@confirmPassword": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "or": "or",
+    "@or": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "google": "{method} with Google",
+    "@google": {
+        "description": "",
+        "type": "text",
+        "placeholders": {
+            "method": {}
+        }
+    },
+    "apple": "{method} with Apple",
+    "@apple": {
+        "description": "",
+        "type": "text",
+        "placeholders": {
+            "method": {}
+        }
+    },
+    "alreadyHaveAccount": "Already have an account?",
+    "@alreadyHaveAccount": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "dontHaveAccount": "Don`t have an account?",
+    "@dontHaveAccount": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
     }
 }

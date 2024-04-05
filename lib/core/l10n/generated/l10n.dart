@@ -199,6 +199,96 @@ class L {
       args: [],
     );
   }
+
+  /// `Register`
+  String get register {
+    return Intl.message(
+      'Register',
+      name: 'register',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Username`
+  String get username {
+    return Intl.message(
+      'Username',
+      name: 'username',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password`
+  String get password {
+    return Intl.message(
+      'Password',
+      name: 'password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Confirm Password`
+  String get confirmPassword {
+    return Intl.message(
+      'Confirm Password',
+      name: 'confirmPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `or`
+  String get or {
+    return Intl.message(
+      'or',
+      name: 'or',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `{method} with Google`
+  String google(Object method) {
+    return Intl.message(
+      '$method with Google',
+      name: 'google',
+      desc: '',
+      args: [method],
+    );
+  }
+
+  /// `{method} with Apple`
+  String apple(Object method) {
+    return Intl.message(
+      '$method with Apple',
+      name: 'apple',
+      desc: '',
+      args: [method],
+    );
+  }
+
+  /// `Already have an account?`
+  String get alreadyHaveAccount {
+    return Intl.message(
+      'Already have an account?',
+      name: 'alreadyHaveAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Don't have an account?`
+  String get dontHaveAccount {
+    return Intl.message(
+      'Don`t have an account?',
+      name: 'dontHaveAccount',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<L> {
