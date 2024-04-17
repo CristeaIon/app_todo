@@ -24,13 +24,26 @@ class MessageLookup extends MessageLookupByLibrary {
 
   static String m1(method) => "${method} with Google";
 
+  static String m2(count) => "${count} Task done";
+
+  static String m3(count) => "${count} Task left";
+
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "about": MessageLookupByLibrary.simpleMessage("About US"),
+        "account": MessageLookupByLibrary.simpleMessage("Account"),
         "alreadyHaveAccount":
             MessageLookupByLibrary.simpleMessage("Already have an account?"),
+        "appSettings": MessageLookupByLibrary.simpleMessage("App Settings"),
         "apple": m0,
         "back": MessageLookupByLibrary.simpleMessage("Back"),
         "calendar": MessageLookupByLibrary.simpleMessage("Calendar"),
+        "changeAccountImg":
+            MessageLookupByLibrary.simpleMessage("Change Account Image"),
+        "changeAccountName":
+            MessageLookupByLibrary.simpleMessage("Change Account Name"),
+        "changeAccountPass":
+            MessageLookupByLibrary.simpleMessage("Change Account Password"),
         "confirmPassword":
             MessageLookupByLibrary.simpleMessage("Confirm Password"),
         "createAccount": MessageLookupByLibrary.simpleMessage("Create Account"),
@@ -40,11 +53,14 @@ class MessageLookup extends MessageLookupByLibrary {
             "In Uptodo you can create your personalized routine to stay productive"),
         "dontHaveAccount":
             MessageLookupByLibrary.simpleMessage("Don`t have an account?"),
+        "faq": MessageLookupByLibrary.simpleMessage("FAQ"),
         "focus": MessageLookupByLibrary.simpleMessage("Focus"),
         "getStarted": MessageLookupByLibrary.simpleMessage("Get Started"),
         "google": m1,
+        "helpFeedback": MessageLookupByLibrary.simpleMessage("Help & Feedback"),
         "index": MessageLookupByLibrary.simpleMessage("Index"),
         "login": MessageLookupByLibrary.simpleMessage("Login"),
+        "logout": MessageLookupByLibrary.simpleMessage("Log out"),
         "manageTasks":
             MessageLookupByLibrary.simpleMessage("Manage your tasks"),
         "manageTasksMessage": MessageLookupByLibrary.simpleMessage(
@@ -58,9 +74,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "password": MessageLookupByLibrary.simpleMessage("Password"),
         "profile": MessageLookupByLibrary.simpleMessage("Profile"),
         "register": MessageLookupByLibrary.simpleMessage("Register"),
+        "settings": MessageLookupByLibrary.simpleMessage("Settings"),
         "skip": MessageLookupByLibrary.simpleMessage("Skip"),
+        "support": MessageLookupByLibrary.simpleMessage("Support US"),
         "tapToAdd":
             MessageLookupByLibrary.simpleMessage("Tap + to add your tasks"),
+        "taskDone": m2,
+        "taskLeft": m3,
         "title": MessageLookupByLibrary.simpleMessage("UpTodo"),
         "username": MessageLookupByLibrary.simpleMessage("Username"),
         "welcome": MessageLookupByLibrary.simpleMessage("Welcome to UpTodo"),

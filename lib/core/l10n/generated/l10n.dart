@@ -349,6 +349,136 @@ class L {
       args: [],
     );
   }
+
+  /// `{count} Task left`
+  String taskLeft(num count) {
+    return Intl.message(
+      '$count Task left',
+      name: 'taskLeft',
+      desc: '',
+      args: [count],
+    );
+  }
+
+  /// `{count} Task done`
+  String taskDone(num count) {
+    return Intl.message(
+      '$count Task done',
+      name: 'taskDone',
+      desc: '',
+      args: [count],
+    );
+  }
+
+  /// `Settings`
+  String get settings {
+    return Intl.message(
+      'Settings',
+      name: 'settings',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `App Settings`
+  String get appSettings {
+    return Intl.message(
+      'App Settings',
+      name: 'appSettings',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Account`
+  String get account {
+    return Intl.message(
+      'Account',
+      name: 'account',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Change Account Name`
+  String get changeAccountName {
+    return Intl.message(
+      'Change Account Name',
+      name: 'changeAccountName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Change Account Password`
+  String get changeAccountPass {
+    return Intl.message(
+      'Change Account Password',
+      name: 'changeAccountPass',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Change Account Image`
+  String get changeAccountImg {
+    return Intl.message(
+      'Change Account Image',
+      name: 'changeAccountImg',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `About US`
+  String get about {
+    return Intl.message(
+      'About US',
+      name: 'about',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `FAQ`
+  String get faq {
+    return Intl.message(
+      'FAQ',
+      name: 'faq',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Help & Feedback`
+  String get helpFeedback {
+    return Intl.message(
+      'Help & Feedback',
+      name: 'helpFeedback',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Support US`
+  String get support {
+    return Intl.message(
+      'Support US',
+      name: 'support',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Log out`
+  String get logout {
+    return Intl.message(
+      'Log out',
+      name: 'logout',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<L> {

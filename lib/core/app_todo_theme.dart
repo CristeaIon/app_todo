@@ -33,6 +33,11 @@ class AppTodoTheme {
           ),
         ),
       ),
+      listTileTheme: const ListTileThemeData(
+        textColor: Colors.white,
+        iconColor: Colors.white,
+        contentPadding: EdgeInsets.zero,
+      ),
       bottomNavigationBarTheme: BottomNavigationBarThemeData(
         backgroundColor: Colors.white.withOpacity(.2),
         unselectedItemColor: Colors.white,

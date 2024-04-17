@@ -184,5 +184,91 @@
         "description": "",
         "type": "text",
         "placeholders": {}
+    },
+    "taskLeft": "{count} Task left",
+    "@taskLeft": {
+        "description": "",
+        "type": "text",
+        "placeholders": {
+            "count": {
+                "type": "num"
+            }
+        }
+    },
+    "taskDone": "{count} Task done",
+    "@taskDone": {
+        "description": "",
+        "type": "text",
+        "placeholders": {
+            "count": {
+                "type": "num"
+            }
+        }
+    },
+    "settings": "Settings",
+    "@settings": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "appSettings": "App Settings",
+    "@appSettings": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "account": "Account",
+    "@account": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "changeAccountName": "Change Account Name",
+    "@changeAccountName": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "changeAccountPass": "Change Account Password",
+    "@changeAccountPass": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "changeAccountImg": "Change Account Image",
+    "@changeAccountImg": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "about": "About US",
+    "@about": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "faq": "FAQ",
+    "@faq": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "helpFeedback": "Help & Feedback",
+    "@helpFeedback": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "support": "Support US",
+    "@support": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
+    },
+    "logout": "Log out",
+    "@logout": {
+        "description": "",
+        "type": "text",
+        "placeholders": {}
     }
 }
